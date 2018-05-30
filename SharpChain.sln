@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miner", "Miner\Miner.csproj", "{1B754B70-94B2-4507-B23A-A9CA22D9F38F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpChain", "SharpChain\SharpChain.csproj", "{FD9C7452-63E2-48E4-BF74-F295FE2DBA7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpChain.Tests", "SharpChain.Tests\SharpChain.Tests.csproj", "{3EA5E38C-93A8-482D-ADE1-3A85AC77737C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullNode", "FullNode\FullNode.csproj", "{8919B0A5-DACE-495F-BF77-40A8F560A956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet", "Wallet\Wallet.csproj", "{2DB87354-D240-4BAF-8AA0-986BFE99A99F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{1B754B70-94B2-4507-B23A-A9CA22D9F38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B754B70-94B2-4507-B23A-A9CA22D9F38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B754B70-94B2-4507-B23A-A9CA22D9F38F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9C7452-63E2-48E4-BF74-F295FE2DBA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9C7452-63E2-48E4-BF74-F295FE2DBA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9C7452-63E2-48E4-BF74-F295FE2DBA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9C7452-63E2-48E4-BF74-F295FE2DBA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA5E38C-93A8-482D-ADE1-3A85AC77737C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA5E38C-93A8-482D-ADE1-3A85AC77737C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA5E38C-93A8-482D-ADE1-3A85AC77737C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA5E38C-93A8-482D-ADE1-3A85AC77737C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8919B0A5-DACE-495F-BF77-40A8F560A956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8919B0A5-DACE-495F-BF77-40A8F560A956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8919B0A5-DACE-495F-BF77-40A8F560A956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8919B0A5-DACE-495F-BF77-40A8F560A956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB87354-D240-4BAF-8AA0-986BFE99A99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB87354-D240-4BAF-8AA0-986BFE99A99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB87354-D240-4BAF-8AA0-986BFE99A99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB87354-D240-4BAF-8AA0-986BFE99A99F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
